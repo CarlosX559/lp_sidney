@@ -178,6 +178,75 @@ a {
 }
 
 
+
+@-webkit-keyframes pulse-verde {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #49B44E, 0 0 0 0 #49B44E;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@-moz-keyframes pulse-verde {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #49B44E, 0 0 0 0 #49B44E;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@-o-keyframes pulse-verde {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #49B44E, 0 0 0 0 #49B44E;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
+@keyframes pulse-verde {
+    0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 #49B44E, 0 0 0 0 #49B44E;
+    }
+
+    70% {
+        transform: scale(1.01);
+        box-shadow: 0 0 0 10px transparent, 0 0 0 20px transparent;
+    }
+
+    100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 transparent, 0 0 0 0 transparent;
+    }
+}
+
 .btn_container {
     display: flex;
     justify-content: center;
@@ -187,6 +256,10 @@ a {
     max-width: 400px;
     border-bottom: 1px solid #fff;
     border-radius: 5px;
+    -webkit-animation: pulse-verde 2s infinite;
+    -moz-animation: pulse-verde 2s infinite;
+    -o-animation: pulse-verde 2s infinite;
+    animation: pulse-verde 2s infinite;
 }
 
 .btn_container h2 {
@@ -208,12 +281,14 @@ a {
     height: 850px;
 }
 
-/*.rotacionar {
+.rotacionar {
     animation: rotacionar 6s infinite linear;
     -webkit-animation: rotacionar 6s infinite linear;
     -moz-animation: rotacionar 6s infinite linear;
     -o-animation: rotacionar 6s infinite linear;
-}*/
+    width: 54px;
+    height: 54px;
+}
 
 @keyframes rotacionar {
     0% {
