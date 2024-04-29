@@ -363,6 +363,16 @@ a {
     color: #CDCFCF;
 }
 
+.info_box_container_2 span b {
+    font-family: 'RobotoFlex Regular';
+    background-image: linear-gradient(to bottom, #EFCD7A, #BF9141);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+
 .container_3 {
     display: flex;
     justify-content: center;
