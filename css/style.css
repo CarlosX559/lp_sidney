@@ -421,7 +421,7 @@ a {
     border-radius: 350px;
     filter: blur(200px);
     background: radial-gradient(48.78% 61.36% at 50.08% 30.02%, #BBBBBB 0%, #E7E7E7 100%);
-    z-index: 0;
+    z-index: 1;
 }
 
 .container_4 {
@@ -620,6 +620,7 @@ a {
     max-width: 540px;
     height: auto;
 }
+
 /*Container Swiper*/
 
 .container_swiper {
@@ -1056,6 +1057,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
     width: 100%;
     padding: 30px 20px;
 }
@@ -1159,9 +1162,8 @@ footer {
     .area_imgs_container_5 {
         flex-direction: column;
         flex-wrap: nowrap;
+        gap: 20px;
     }
-
-
 
 
     .container_6_int {
@@ -1220,7 +1222,10 @@ footer {
         padding: 0px 20px;
     }
 
-
+    .area_footer {
+        justify-content: center;
+        text-align: center;
+    }
 
 }
 
@@ -1228,6 +1233,8 @@ footer {
 @media(max-width: 480px) {
     .area_container_5 {
         text-align: center;
+        padding: 0px 20px;
+        gap: 40px;
     }
 
     #container_1 {
@@ -1246,9 +1253,20 @@ footer {
     .title_container_10 h1,
     .title_faq h1,
     .title_swiper h1 {
-        font-size: 1.8em;
+        font-size: 1.6em;
     }
 
+    .area_box_container_2 {
+        padding: 0px 20px;
+    }
+
+    .info_box_container_2 span {
+        font-size: 1em;
+    }
+
+    .area_container_3 {
+        gap: 40px;
+    }
 
     .title_swiper h1 {
         text-align: center;
@@ -1257,6 +1275,7 @@ footer {
     .container_9_int {
         padding: 0px 20px;
     }
+
     .area_container_9 {
         padding: 40px 20px;
     }
@@ -1268,6 +1287,6 @@ footer {
     .btn_desconto .btn_container h2 {
         font-size: 0.8em;
     }
-    
+
 
 }
