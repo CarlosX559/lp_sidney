@@ -515,11 +515,14 @@ a {
 }
 
 .sub_title_container_3 p b {
-    background-image: linear-gradient(to bottom, #EFCD7A, #BF9141);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    color: black;
+    color: #BF9141;
+}
+
+.sub_title_container_3 p u {
+    font-size: 1.3em;
+    text-transform: uppercase;
+    color: #BF9141;
+    font-weight: bold;
 }
 
 
@@ -972,11 +975,19 @@ a {
 }
 
 .title_valor h2 {
-    font-size: 3.8em;
+    font-size: 2em;
     font-family: 'RobotoFlex Regular';
     line-height: 120%;
     color: #CDCFCF;
 }
+
+.sub_title_valor p {
+    font-size: 3em;
+    font-family: 'RobotoFlex Regular';
+    line-height: 120%;
+    color: #CDCFCF;
+}
+
 
 .area_btn_formas_pagamento {
     display: flex;
