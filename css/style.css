@@ -508,10 +508,12 @@ a {
 
 .sub_title_container_3 p {
     font-family: 'RobotoFlex Regular';
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 120%;
     color: #101010;
     text-align: center;
+    letter-spacing: 0.1ch;
+    text-transform: uppercase;
 }
 
 .sub_title_container_3 p b {
