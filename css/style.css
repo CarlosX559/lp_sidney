@@ -960,6 +960,7 @@ a {
     font-family: 'RobotoFlex Regular';
     line-height: 120%;
     color: #CDCFCF;
+    text-align: center;
 }
 
 .info_container_9 p s {
@@ -1501,6 +1502,10 @@ footer {
     }
 
     .title_valor h2 {
+        font-size: 1.8em;
+    }
+
+    .sub_title_valor p {
         font-size: 2.8em;
     }
 
