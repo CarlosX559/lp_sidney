@@ -1563,3 +1563,22 @@ footer {
 
 
 }
+
+@media(max-width: 375px) {
+    
+    .title_container_1 h1,
+    .title_container_2 h1,
+    .title_container_3 h1,
+    .title_container_4 h1,
+    .title_container_5 h1,
+    .title_container_6 h1,
+    .title_container_7 h1,
+    .title_container_8 h1,
+    .title_pagamento h1,
+    .title_container_10 h1,
+    .title_faq h1,
+    .title_swiper h1 {
+        font-size: 1.4em;
+    }
+
+}
