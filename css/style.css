@@ -1473,14 +1473,11 @@ footer {
         max-width: 560px;
         height: auto;
     }
-    
-
-    .area_container_1 {
-        margin-top: 300px;
-    }
 
     #container_1 {
-        background-position: 72%;
+        background-position: center;
+        background-image: url('../img/hero_mobile.png');
+        height: 940px;
     }
 
     .area_bg_notebook_8 {
