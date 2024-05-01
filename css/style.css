@@ -840,6 +840,10 @@ a {
     height: auto;
 }
 
+.bonus_mobile {
+    display: none;
+}
+
 .area_container_8 {
     display: flex;
     justify-content: center;
@@ -1459,6 +1463,18 @@ footer {
     .btn_container h2 {
         font-size: 1em;
     }
+
+    .bonus {
+        display: none;
+    }
+    
+    .bonus_mobile {
+        display: flex;
+        width: 100%;
+        max-width: 560px;
+        height: auto;
+    }
+    
 
     .area_container_1 {
         margin-top: 300px;
