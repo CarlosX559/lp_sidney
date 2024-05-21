@@ -118,7 +118,7 @@ a {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     text-align: center;
     align-items: center;
     max-width: 800px;
@@ -129,6 +129,14 @@ a {
     height: auto;
     max-width: 280px;
     width: 100%;
+}
+
+#smartplayer#smartplayer#smartplayer.smartplay.smartplayer-initial {
+    border-radius: 3px !important;
+}
+
+#smartplayer#smartplayer#smartplayer.smartplay.smartplayer-hide-controller {
+    border-radius: 3px !important;
 }
 
 .title_container_1 h1,
