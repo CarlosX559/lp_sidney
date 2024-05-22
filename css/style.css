@@ -1498,9 +1498,24 @@ footer {
 
     #container_1 {
         background-position: center;
-        background-image: url('../img/hero_mobile.png');
-        height: 900px;
-        padding: 80px 0px 60px 0px;
+        background-image: url('');
+        padding: 40px 0px 40px 0px;
+    }
+
+    .area_container_1 {
+        gap: 20px;
+    }
+
+    .logo_ferramentas_secretas {
+        max-width: 200px;
+    }
+
+    .title_container_1 h1 {
+        font-size: 1.4em !important;
+    }
+
+    .sub_title_container_1 p {
+        font-size: 1em;
     }
 
     .area_bg_notebook_8 {
