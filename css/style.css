@@ -1499,10 +1499,8 @@ footer {
     #container_1 {
         background-position: center;
         background-image: url('../img/hero_mobile.png');
-    }
-
-    .area_container_1 {
-        margin-top: 100px;
+        height: 900px;
+        padding: 80px 0px 60px 0px;
     }
 
     .area_bg_notebook_8 {
